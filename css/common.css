@@ -1,8 +1,37 @@
+@font-face {
+    src: url('fonts/Rubik-Regular.ttf');
+    font-family: 'Rubik';
+}
+
+@font-face {
+    src: url('fonts/Rubik-Bold.ttf');
+    font-family: 'Rubik';
+    font-weight: bold;
+}
+@font-face {
+    src: url('fonts/Roboto-Medium.ttf');
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
 *{
     box-sizing: border-box;
+    font-size: 16px;
+    transition: .3s;
+    font-family: Roboto;
+    font-weight: 400;
 }
+
+a{
+  text-decoration: none;
+}
+
 
 body{
     margin: 0px;
     padding: 0px;
+}
+
+html{
+  font-size: 10px;
 }
