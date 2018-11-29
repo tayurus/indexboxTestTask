@@ -1,0 +1,19 @@
+.format-option{
+
+}
+
+.format-option__label{
+  color: #4e82fe;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+input[type='radio']:checked + .format-option__label{
+  border-radius: 15px;
+  background-color: #4e82fe20;
+}

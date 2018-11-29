@@ -20,6 +20,27 @@ html(lang="ru")
                   
                 select.select
                   option(selected disabled hidden) Period
+                  
+          section.container.py-25
+            h2(hidden) Поиск
+            
+            .row.row_format-options
+              .label.mr-2 Output Formating Options show by
+              
+              .row
+                .format-option
+                  input(type='radio', name='format', id='factor', hidden) 
+                  label.format-option__label(for='factor') Factor
+                  
+                .format-option
+                  input(type='radio', name='format', id='country', hidden) 
+                  label.format-option__label(for='country') Country/Region
+                  
+                .format-option
+                  input(type='radio', name='format', id='code', hidden) 
+                  label.format-option__label(for='code') Code
+                  
+                
             
 
 
