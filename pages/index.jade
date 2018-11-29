@@ -4,7 +4,23 @@ html(lang="ru")
     body
         include ../blocks/header/header.jade
 
-        main 
+        main
+          section.bg-gray.py-15
+            h2(hidden) Селекты
+            .container
+              .grid.grid_select
+                select.select.select_big
+                  option(selected disabled hidden) Product
+                  
+                select.select
+                  option(selected disabled hidden) Country
+                  
+                select.select
+                  option(selected disabled hidden) Country
+                  
+                select.select
+                  option(selected disabled hidden) Period
+            
 
 
         include ../blocks/footer/footer.jade

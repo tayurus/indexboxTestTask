@@ -1,0 +1,15 @@
+.select{
+  appearance: none;
+  background: #fff url('img/select-arrow.png') no-repeat 92% center / 1.3rem 0.8rem;
+  border-radius: 6px;
+  max-width: 220px;
+  width: 100%;
+  padding: 1.3rem 1.9rem;
+  border: none;
+  color: #ccc;
+}
+
+.select_big{
+  max-width: 458px;
+  padding: 1.3rem 2.5rem;
+}

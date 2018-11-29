@@ -2,9 +2,9 @@ noscript
     p Please enable Javascript
     
 header.header
-  .header__wrapper
-    .header__wrapper-main
-      a.header__logo(href="#")
+  .container.row.header__wrapper
+    .row.header__wrapper-main
+      a.row(href="#")
         img.header__logo-img(src='img/header-logo.png', alt='logo')
         h1
           span.header__title INDEX
@@ -17,8 +17,8 @@ header.header
     a.header__hamburger(href="#")
       i.fa.fa-bars
           
-    nav.header__wrapper-nav
-      ul.header__nav
+    nav.header__wrapper-nav.row
+      ul.header__nav.row
         li
           a.header__nav-item.header__nav-item_active(href="#") Download Data
         li
@@ -26,7 +26,7 @@ header.header
         li
           a.header__nav-item(href="#") Report writing
       
-      ul.header__nav.header__nav_login 
+      ul.header__nav.row.header__nav_login 
         li
           a.header__nav-item(href="#") Sign up
         li

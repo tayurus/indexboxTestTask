@@ -3,29 +3,18 @@
 }
 
 .header__wrapper{
-  max-width: 118rem;
-  display: flex;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   flex-grow: 1;
-  margin: 0 auto;
   padding: 2.25rem 1rem;
 }
 
 .header__wrapper-main{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   max-width: 54.1rem;
   width: 100%;
   margin: 0 2rem;
 }
 
-.header__logo{
-  display: flex;
-  align-items: center;
-}
 
 .header__logo-img{
   margin-right: 0.7rem;
@@ -60,18 +49,12 @@
 
 .header__wrapper-nav{
   max-width: 55.8rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
 }
 
 .header__nav{
     padding: 0;
     margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     max-width: 37.6rem;
     flex-grow: 1;
     list-style: none;
