@@ -81,6 +81,7 @@
   display: none;
   font-size: 3rem;
   color: #fff;
+  cursor: pointer;
 }
 
 @media (max-width:400px),(max-device-width:400px) {
