@@ -1,9 +1,6 @@
 This template contains:
 	gulp
-	bootstrap 4
-	jquery 3.3
 	normalize.css
-	owl-carousel
 
 File structure description:
 	blocks - BEM blocks
