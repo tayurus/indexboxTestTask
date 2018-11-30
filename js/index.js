@@ -1,3 +1,4 @@
+//ПОЛУЧАЕМ UNITS
 fetch("./units.json").then(data => data.json()).then( units => {
 
   units.forEach( unit => {
@@ -10,3 +11,27 @@ fetch("./units.json").then(data => data.json()).then( units => {
     })
   })
 })
+
+function fillDataList(jsonUrl, datalistId, fieldName){
+  fetch(jsonUrl).then(data => data.json()).then( data => {
+    const datalist = document.querySelector('datalist#' + datalistId );
+    let options = "";
+    data.forEach( option => {
+      options = options + '<option value="'+option[fieldName]+'"/>';
+    });
+
+    datalist.innerHTML = options;
+  })
+}
+
+//ПОЛУЧАЕМ PRODUCTS
+fillDataList('products.json', 'product', 'name');
+
+//ПОЛУЧАЕМ countries
+fillDataList('countries.json', 'country', 'name');
+
+//ПОЛУЧАЕМ countries
+fillDataList('factors.json', 'factor', 'factor');
+
+//ПОЛУЧАЕМ periods
+fillDataList('periods.json', 'period', 'year');

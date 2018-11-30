@@ -5,22 +5,26 @@ html(lang="ru")
         include ../blocks/header/header.jade
 
         main
-          //- section.bg-gray.py-15
-          //-   h2(hidden) Селекты
-          //-   .container
-          //-     .grid.grid_select
-          //-       select.select.select_big
-          //-         option(selected disabled hidden) Product
-          //- 
-          //-       select.select
-          //-         option(selected disabled hidden) Country
-          //- 
-          //-       select.select
-          //-         option(selected disabled hidden) Country
-          //- 
-          //-       select.select
-          //-         option(selected disabled hidden) Period
-          //- 
+          section.bg-gray.py-15
+            h2(hidden) Селекты
+            .container
+              .grid.grid_select
+                .select
+                  input.select__field.select__field_sort.select__field_big(list='product')
+                  datalist(id='product')
+                    
+                    
+                .select      
+                  input.select__field.select__field_sort(list='country')
+                  datalist(id='country')
+                    
+                .select
+                  input.select__field.select__field_sort(list='factor')
+                  datalist(id='factor')
+                  
+                .select
+                  input.select__field.select__field_sort(list='period')
+                  datalist(id='period')
           
 
           section.container.py-25
