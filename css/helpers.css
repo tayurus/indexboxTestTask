@@ -38,6 +38,10 @@
   align-items: center;
 }
 
+.row_buttons{
+  display: inline-flex;
+}
+
 .row_format-options {
   max-width: 53.7rem;
   width: 100%;

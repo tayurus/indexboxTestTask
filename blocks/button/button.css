@@ -1,3 +1,33 @@
 button{
     outline: none;
 }
+
+.button{
+  border-radius: 20px;
+  background-color: #4e82fe;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1.1rem 3rem;
+  border: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.button:hover{
+  background: #fff;
+  color: #4e82fe;
+  border: 1px solid #4e82fe;
+}
+
+.button_danger{
+  color: #ff7f7c;
+  background: none;
+}
+
+.button_danger:hover{
+  color: #fff;
+  background: #ff7f7c;
+  border: none;
+}
