@@ -1,0 +1,38 @@
+.footer__wrapper{
+  padding-top: 2.1rem;
+  padding-bottom: 2.1rem;
+}
+
+.footer__primary{
+  max-width: 34rem;
+  margin-right: 2rem;
+}
+
+.footer__text{
+  opacity: 0.4;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.footer__nav{
+    max-width: 65rem;
+    width: 100%;
+}
+
+.footer__nav-list{
+  list-style: none;
+}
+
+.footer__nav-item{
+  opacity: 0.4;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.footer__nav-item:hover{
+  opacity: 1;
+}

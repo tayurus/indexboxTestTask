@@ -13,6 +13,11 @@
     font-family: 'Roboto';
     font-weight: 500;
 }
+@font-face {
+    src: url('fonts/Roboto-Regular.ttf');
+    font-family: 'Roboto';
+    font-weight: 400;
+}
 
 *{
     box-sizing: border-box;
