@@ -5,22 +5,22 @@ html(lang="ru")
         include ../blocks/header/header.jade
 
         main
-          section.bg-gray.py-15
-            h2(hidden) Селекты
-            .container
-              .grid.grid_select
-                select.select.select_big
-                  option(selected disabled hidden) Product
-                  
-                select.select
-                  option(selected disabled hidden) Country
-                  
-                select.select
-                  option(selected disabled hidden) Country
-                  
-                select.select
-                  option(selected disabled hidden) Period
-                  
+          //- section.bg-gray.py-15
+          //-   h2(hidden) Селекты
+          //-   .container
+          //-     .grid.grid_select
+          //-       select.select.select_big
+          //-         option(selected disabled hidden) Product
+          //- 
+          //-       select.select
+          //-         option(selected disabled hidden) Country
+          //- 
+          //-       select.select
+          //-         option(selected disabled hidden) Country
+          //- 
+          //-       select.select
+          //-         option(selected disabled hidden) Period
+          //- 
           section.container.py-25
             h2(hidden) Поиск
             
@@ -39,6 +39,29 @@ html(lang="ru")
                 .format-option
                   input(type='radio', name='format', id='code', hidden) 
                   label.format-option__label(for='code') Code
+                  
+            .grid.grid_search.my-3
+              .select
+                .select__title Volume
+                select.select
+              .select
+                .select__title Value
+                select.select
+              .select
+                .select__title Price
+                select.select
+              .select
+                .select__title Area
+                select.select
+              .select
+                .select__title Livestock
+                select.select
+              .select
+                .select__title Yield
+                select.select
+              .select
+                .select__title Per Capita
+                select.select
                   
             .search-results.my-3.container
               .search-results__title
