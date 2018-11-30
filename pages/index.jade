@@ -21,6 +21,8 @@ html(lang="ru")
           //-       select.select
           //-         option(selected disabled hidden) Period
           //- 
+          
+
           section.container.py-25
             h2(hidden) Поиск
             
@@ -43,25 +45,25 @@ html(lang="ru")
             .grid.grid_search.my-3
               .select
                 .select__title Volume
-                select.select
+                select.select__field(data-name="Volume")
               .select
                 .select__title Value
-                select.select
+                select.select__field(data-name="Value")
               .select
                 .select__title Price
-                select.select
+                select.select__field(data-name="Price")
               .select
                 .select__title Area
-                select.select
+                select.select__field(data-name="Area")
               .select
                 .select__title Livestock
-                select.select
+                select.select__field(data-name="Livestock")
               .select
                 .select__title Yield
-                select.select
+                select.select__field(data-name="Yield")
               .select
                 .select__title Per Capita
-                select.select
+                select.select__field(data-name="Per Capita")
             
             .row.row_buttons    
               button.button.mx-1 Find data
