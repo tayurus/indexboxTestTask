@@ -29,5 +29,5 @@ button{
 .button_danger:hover{
   color: #fff;
   background: #ff7f7c;
-  border: none;
+  border: 1px solid transparent;
 }

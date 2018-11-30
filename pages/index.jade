@@ -10,20 +10,19 @@ html(lang="ru")
             .container
               .grid.grid_select
                 .select
-                  input.select__field.select__field_sort.select__field_big(list='product')
+                  input.select__field.select__field_sort.select__field_big(list='product', placeholder='Product')
                   datalist(id='product')
                     
-                    
                 .select      
-                  input.select__field.select__field_sort(list='country')
+                  input.select__field.select__field_sort(list='country', placeholder='Country')
                   datalist(id='country')
                     
                 .select
-                  input.select__field.select__field_sort(list='factor')
+                  input.select__field.select__field_sort(list='factor', placeholder='Factor')
                   datalist(id='factor')
                   
                 .select
-                  input.select__field.select__field_sort(list='period')
+                  input.select__field.select__field_sort(list='period', placeholder='Period')
                   datalist(id='period')
           
 
@@ -35,16 +34,16 @@ html(lang="ru")
               
               .row
                 .format-option
-                  input(type='radio', name='format', id='factor', hidden, checked) 
-                  label.format-option__label(for='factor') Factor
+                  input(type='radio', name='format', id='factor-checkbox', value='factor', checked, hidden) 
+                  label.format-option__label(for='factor-checkbox') Factor
                   
                 .format-option
-                  input(type='radio', name='format', id='country', hidden) 
-                  label.format-option__label(for='country') Country/Region
+                  input(type='radio', name='format', id='country-checkbox', value='country', hidden) 
+                  label.format-option__label(for='country-checkbox') Country/Region
                   
                 .format-option
-                  input(type='radio', name='format', id='code', hidden) 
-                  label.format-option__label(for='code') Code
+                  input(type='radio', name='format', id='code-checkbox', value='code', hidden) 
+                  label.format-option__label(for='code-checkbox') Code
                   
             .grid.grid_search.my-3
               .select
